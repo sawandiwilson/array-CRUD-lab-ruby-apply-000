@@ -12,7 +12,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
+<<<<<<< HEAD
   (array).unshift(element)
+=======
+  add_element_to_start_of_array(array, element).unshift
+>>>>>>> 3998bc9d97c20569df7d0ae966716f250608a047
 end
 
 def remove_element_from_end_of_array(array)
